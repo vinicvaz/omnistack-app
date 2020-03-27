@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react'
 import api from '../../services/api'
 import { View, FlatList, Image, Text, TouchableOpacity } from 'react-native'
 import { useNavigation } from '@react-navigation/native'
+import 'intl';
+import 'intl/locale-data/jsonp/pt-BR';
 
 
 import { Feather } from '@expo/vector-icons'
